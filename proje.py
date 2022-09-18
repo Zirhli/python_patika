@@ -4,7 +4,7 @@ def flatten(x):
   for i in x:
     if isinstance(i,list):
       flatten(i)
-      else 
+    else: 
       list_2.append(i)
 print(list_2)
       
